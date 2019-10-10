@@ -1,4 +1,6 @@
 def reverse_each_word(sentence1)
+           reversed = ''
      
-  return   sentence1.each_char {|char| reverse.char}
+      sentence1.each_char {|char| reversed+=char }
+      return reversed
 end
